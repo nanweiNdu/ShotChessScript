@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7348ee25ca7da1e4bb41ee9b03ec9ec4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1823e0a384a420d408bc10290f02b211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,9 +93,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8958049042814719720}
-  - component: {fileID: 3658675756073324009}
   - component: {fileID: 6419552009505704001}
   - component: {fileID: 3321218005017991250}
+  - component: {fileID: 5219656908951929278}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -117,21 +117,8 @@ Transform:
   m_Children:
   - {fileID: 1274785341469007250}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3658675756073324009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3555564590982057772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b62af9d1ec6eab64e95d5a5ab29f74b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCurvedFire: 0
 --- !u!136 &6419552009505704001
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -182,6 +169,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &5219656908951929278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555564590982057772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1462b89429b1494fa10e1a1437c3ba5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCurvedFire: 0
 --- !u!1001 &3005528608885500150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193,6 +193,10 @@ PrefabInstance:
     - target: {fileID: 2860403511249044399, guid: ed0138b3d83d58a438ace2d4441ae105, type: 3}
       propertyPath: m_Name
       value: Arrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110115913761182081, guid: ed0138b3d83d58a438ace2d4441ae105, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5237664968014391404, guid: ed0138b3d83d58a438ace2d4441ae105, type: 3}
       propertyPath: m_RootOrder

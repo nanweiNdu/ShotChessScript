@@ -32,7 +32,7 @@ Transform:
   m_Children:
   - {fileID: 2111105653383620167}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &6681025561160685751
 BoxCollider:
@@ -64,11 +64,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 356570538765296211}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e72aadeb2233cc4aacc40a9e4f20df0, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a6a6ec422e679d40ae625c319c7445e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camp: 1
-  pieceType: 1
+  camp: 0
+  pieceType: 0
   boardX: 0
   boardY: 0
   isSelected: 0
@@ -146,7 +146,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60cbfc0350c96484db055a2265604817, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5e7b62b0322c00a44901b5be5a764677, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0

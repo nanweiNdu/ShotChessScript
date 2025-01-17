@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aeb99a6956df3964fb017a156b937159, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1bd6aeb4fdbc75341bf1da4b026b5d06, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -116,7 +116,7 @@ Transform:
   m_Children:
   - {fileID: 720991957180581098}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &7968727982406062251
 BoxCollider:
@@ -148,11 +148,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2388749425286086238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e72aadeb2233cc4aacc40a9e4f20df0, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a6a6ec422e679d40ae625c319c7445e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camp: 1
-  pieceType: 1
+  camp: 0
+  pieceType: 0
   boardX: 0
   boardY: 0
   isSelected: 0
